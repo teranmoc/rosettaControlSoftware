@@ -21,7 +21,9 @@ Après avoir cloner le dépôt, utiliser le **makefile** pour compiler les sourc
 ### Lancement
 Le logiciel embarqué peut être démarré par la console :
 > $ ./Soft
+
 (Si il est impossible de lancer, s'assurer que le fichier *Soft* a le droit de s'exécuter :
+
 > $ chmod +x Soft
 
 Il est possible de lancer le logiciel au démarrage de la Raspberry Pi via un daemon (dossier **daemon** de ce dépôt). 
